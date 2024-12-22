@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -46,4 +45,23 @@ h1 {
 .score-container {
     font-family: "Pacifico", serif;
     font-size: 1.5rem;
+}
+
+.social {
+    max-width: 300px;
+    font-family: "Pacifico", serif;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.social img {
+    height: 1rem;
+}
+
+.social a {
+    color: var(--navy);
+    text-decoration: none;
+}
+.social a:hover {
+    color: var(--maroon)
 }
