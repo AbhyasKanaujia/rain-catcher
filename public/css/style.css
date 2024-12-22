@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+:root {
+    --black: #432E54;
+    --navy: #4B4376;
+    --maroon: #AE445A;
+    --peach: #E8BCB9;
+}
+
+.pacifico-regular {
+    font-family: "Pacifico", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#sketch-holder {
+    z-index: -1;
+    position: absolute;
+}
+
+#game-overlay {
+    padding: 1rem;
+    color: var(--peach);
+}
+
+#game-over {
+    background: var(--peach);
+    color: var(--black);
+    height: 100vh;
+    text-align: center;
+    padding: 3rem;
+}
+
+h1 {
+    text-align: center;
+    padding: 0;
+    font-size: 3rem;
+    font-family: "Pacifico", serif;
+}
+
+.score-container {
+    font-family: "Pacifico", serif;
+    font-size: 1.5rem;
+}
